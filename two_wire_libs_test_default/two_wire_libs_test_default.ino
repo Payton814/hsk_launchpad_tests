@@ -37,6 +37,7 @@ TwoWire *wire_2= new TwoWire(i2c_3); // i2C object for the i2c port on the launc
 #define PCF8574_I2C_ADDRESS_1 32
 #define PCF8574_I2C_ADDRESS_2 33
 char one_byte;
+//this is a comment, im afraid of my computer
 
 void setup() {
   // put your setup code here, to run once:
